@@ -1,7 +1,7 @@
 test_values = []
 test_numbers = []
 
-with open("input.txt") as file:
+with open("day_7/input.txt") as file:
     for line in file:
         value, numbers = line.strip().split(':')
         numbers = numbers.split()

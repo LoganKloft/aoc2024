@@ -1,5 +1,5 @@
 grid = []
-with open("input.txt") as file:
+with open("day_6/input.txt") as file:
     for line in file:
         grid.append(list(line.strip()))
 

@@ -20,7 +20,7 @@ def check_direction(grid, row_idx, col_idx, direction, word):
 
 # parse file
 grid = []
-with open("input.txt") as file:
+with open("day_4/input.txt") as file:
     for line in file:
         grid.append(list(line.strip()))
 

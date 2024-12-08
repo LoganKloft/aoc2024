@@ -5,7 +5,7 @@ def get_x_y(mul_str):
     return int(x), int(y)
 
 result = 0
-with open("input.txt") as file:
+with open("day_3/input.txt") as file:
     do = True
     for line in file:
         matches = re.findall(r"(don't\(\))|(do\(\))|(mul\(\d{1,3},\d{1,3}\))", line.strip())

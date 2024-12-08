@@ -1,7 +1,7 @@
 left_nums = []
 right_nums = []
 
-with open("input.txt") as file:
+with open("day_1/input.txt") as file:
     for line in file:
         left, right = line.strip().split()
         left_nums.append(int(left))

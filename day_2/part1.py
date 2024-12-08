@@ -22,7 +22,7 @@ def is_safe(levels):
     return False, 0
 
 result = 0
-with open("input.txt") as file:
+with open("day_2/input.txt") as file:
     for line in file:
         levels = line.strip().split()
         result += is_safe(levels)[0] 

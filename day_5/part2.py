@@ -15,7 +15,7 @@ def check_manual(manual, rules):
 
     return -1
 
-with open("input.txt") as file:
+with open("day_5/input.txt") as file:
     for line in file:
         if "|" in line:
             x, y = line.strip().split('|')
